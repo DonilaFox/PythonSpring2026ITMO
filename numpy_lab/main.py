@@ -350,3 +350,5 @@ if __name__ == "__main__":
     math_data = load_dataset()[:, 0]
     student_ids = np.arange(1, len(math_data) + 1)
     plot_line(student_ids, math_data)
+    plot_histogram(math_data)
+    plot_heatmap(create_matrix())
